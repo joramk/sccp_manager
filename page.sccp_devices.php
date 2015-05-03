@@ -271,16 +271,6 @@ if (!isset($_REQUEST['extension'])) {
     </tr>
 
 	<tr> 
-    	<td><a href="#" class="info"><?php echo _("DTMFmode")?>:<span><?php echo _("Dual-Tone Multi-Frequency: outofband is the native cisco dtmf tone play")?></span></a></td>
- 		<td>
-        <select name="devData[dtmfmode]" id="devData[dtmfmode]">
-		    <option value="outofband" <?php if ($devData['dtmfmode']=="outofband") echo "selected='selected'" ?> >outofband</option>
-		    <option value="inband" <?php if ($devData['dtmfmode']=="inband") echo "selected='selected'" ?> >inband</option>
-  	    </select>
-    </tr>
-
-
-	<tr> 
     	<td><a href="#" class="info"><?php echo _("DND")?>:<span><?php echo _("Do Not Disturb feature. Default is On")?></span></a></td>
  		<td>
         <select name="devData[dndFeature]" id="devData[dndFeature]">
